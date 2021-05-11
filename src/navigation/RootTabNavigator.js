@@ -103,7 +103,7 @@ export default RootTabNavigator = () => {
               style={{paddingTop: 10}}
               size={25}
               color="#2e2e2e"
-              name="map"
+              name="enviroment"
             />
           ),
           tabBarLabel: '',

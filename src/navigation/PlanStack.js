@@ -10,9 +10,9 @@ const Stack = createStackNavigator();
 const PlanStack = () => {
   return (
     <Stack.Navigator initialRouteName="Home">
-      <Stack.Screen name="Register" component={PlanScreen} />
-      <Stack.Screen name="Login" component={AddPlanScreen} />
-      <Stack.Screen name="CinemaScreen" component={PickingMovieScreen} />
+      <Stack.Screen name="PlanHome" component={PlanScreen} />
+      <Stack.Screen name="AddPlan" component={AddPlanScreen} />
+      <Stack.Screen name="Picking" component={PickingMovieScreen} />
     </Stack.Navigator>
   );
 };
